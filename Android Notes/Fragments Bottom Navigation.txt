@@ -1,0 +1,8 @@
+1.create fragments
+2.Implement BottomNavigationView.OnNavigationItemSelectedListener
+3.attach fragments with activity
+
+void loadFragment(Fragment fragment){
+        getSupportFragmentManager().beginTransaction().replace(R.id.relativeLayoutHome,fragment).commit();
+    }
+4.
